@@ -10,15 +10,15 @@ class Comedian:
 		self.name=name
 		self.themes=themes
 
-	#this is used during set up and should not be used in your solution
+	
 	def setName(self,name):
 		self.name = name
 
-	#this is used during set up and should not be used in your solution
+	
 	def setThemes(self,themes):
 		self.themes = themes
 
-	#this is used during set up and should not be used in your solution
+	
 	def addTheme(self,theme):
 		self.themes.add(theme)
 
