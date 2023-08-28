@@ -7,15 +7,15 @@ class Demographic:
 		self.reference = reference
 		self.topics = topics
 
-	#this is used during set up and should not be used in your solution
+	
 	def setReference(self,name):
 		self.reference = reference
 
-	#this is used during set up and should not be used in your solution
+	
 	def setTopics(self,topics):
 		self.topics = topics
 
-	#this is used during set up and should not be used in your solution
+	
 	def addTopic(self,topic):
 		self.topics.append(topic)
 
