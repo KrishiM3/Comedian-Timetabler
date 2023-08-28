@@ -13,7 +13,7 @@ class Timetable:
 		self.taskNumber = taskNumber
 
 
-	#This method is used by other classes, and should not be used by you
+	
 	def getSession(self, day, timeslot):
 		if day not in self.schedule:
 			raise ValueError("Day can only be Monday, Tuesday, Wednesday, Thursday or Friday")
@@ -23,7 +23,7 @@ class Timetable:
 			else:
 				raise ValueError("timeslot not yet assigned")
 
-	#This method is used by other classes, and should not be used by you
+	
 	def sessionAssigned(self,day,timeslot):
 		if day not in self.schedule:
 			raise ValueError("Day can only be Monday, Tuesday, Wednesday, Thursday or Friday")
